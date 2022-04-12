@@ -459,3 +459,258 @@ header .navbar ul li:last-child{
     top: 6px;
     font-size: 16px;
 }
+
+input,input[type="search"]{
+    width: 100%;
+    padding: 0px 15px;
+    height: 48px;
+    line-height: 48px;
+    background: #141414;
+    border: 1px solid #404043;
+    border-radius: 0;
+    color: #d1d0cf;
+    transition: all 0.5s ease-in-out;
+}
+
+input:focus , input[type="search"]:focus{
+    border-color: #e50914;
+    box-shadow: none;
+    outline: none;
+}
+
+.user-m{
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    line-height: 40px;
+    font-size: 0.6rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.2;
+    color: #fff;
+}
+h1 a, h2 a, h3 a, h4 a,h5 a,h6 a{
+    color: inherit;
+}
+
+.font-size-12{
+    font-size: 12px;
+}
+h6 .h6{
+    font-size: 1.0em;
+}
+
+a.text-primary:focus, a.text-primary:hover{
+    color: #e50914 !important;
+}
+
+.text-primary{
+    color: #e50914 !important;
+}
+header#main-header.menu-sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(20, 20, 20, 0.5) !important;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+
+/* *********** Responsiveness of header ************** */
+@media (min-width : 1300px){
+    .container{
+        max-width: 1170px;
+    }
+}
+@media (min-width : 1499px){
+    .container{
+        max-width: 1266px;
+
+    }
+}
+
+@media only screen and (min-width:1200px ) and (max-width : 1366px){
+    .search:focus , .search:hover{
+        width: 220px !important;
+    }
+}
+
+@media (min-width:992px){
+    .search-box{
+        left: auto !important;
+        right: 0 !important;
+    }
+}
+@media (max-width:991px){
+    header .navbar-light .navbar-brand img.logo{
+        width: 100px;
+    }
+    .navbar-collapse{
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-bottom: 15px;
+        width: 260px;
+        height: 100vh;
+        background: #191919;
+        padding-top: 40px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0,0.2);
+    }
+    .vertical_s{
+        position: static;
+    }
+    .navbar-collapse.collapsing{
+        height: auto;
+        transition: left 0.3s ease;
+        left: -100%;
+    }
+    .navbar-collapse.show{
+        left: -15px;
+        transition: left 0.3s ease-in;
+        z-index: 999;
+    }
+    header .navbar ul li.menu-item a{
+        line-height: 10px;
+        float: left;
+        width: 100%;
+        text-align: left;
+        padding: 10px 30px;
+        color: #fff;
+    }
+    .mobile-more-menu{
+        display: block;
+    }
+    .menu-right{
+        display: none;
+    }
+    .navbar-brand{
+        padding: 0;
+        margin-right: 0;
+    }
+    .more-menu .iq-sub-dropdown{
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 60px;
+    }
+
+    .mobile-more-menu .iq-user-dropdown img{
+        width: 40px;
+    }
+    .iq-search-bar .search-input{
+        background: #141414;
+        color: #d1d0cf;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.75);
+    }
+    .navbar-right li{
+        position: static !important;
+    }
+    .container-fluid{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .main-header{
+        padding: 10px 0;
+    }
+    .search-box{
+        min-width: 16.2rem;
+        top: 55px;
+    }
+    header .navbar ul li{
+        display: block;
+    }
+}
+@media (min-width : 576px){
+    .iq-search-bar a.search-toggle{
+        display: none;
+    }
+}
+
+@media (min-width : 1499px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+@media (max-width : 479px){
+    header .navbar ul li.list-inline-item a{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    header .navbar .iq-usermenu-dropdown>ul>li{
+        position: static;
+    }
+    .search-box{
+        left: 0;
+        right: 0;
+        min-width: 100%;
+        width: 100%;
+    }
+    header .iq-usermenu-dropdown .iq-sub-dropdown{
+        width: 250px;
+    }
+}
+
+/* header menu responsiveness  */
+@media screen and (min-width : 1200px){
+    header .navbar ul li .sub-menu li a, header.menu-sticky .navbar ul li .sub-menu li a{
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width : 4000px) and (min-width : 1200px){
+    .navbar ul li:hover a, .navbar ul li:hover i{
+        color: #e50914;
+        text-decoration: none;
+    }
+}
+@media (max-width :991px){
+    .navbar ul.navbar-nav{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-height: 350px;
+        display: inline-block;
+        width: 100%;
+    }
+    .navbar ul{
+        width: 100%;
+        background: #191919;
+    }
+    header .navbar ul li a, header .navbar ul li.menu-item a{
+        padding: 15px;
+        z-index: inherit;
+        text-align: left;
+        font-weight: normal;
+    }
+    header .navbar ul li.menu-item a{
+        line-height: 10px;
+        float: left;
+        width: 100%;
+        text-align: left;
+        padding: 10px 30px;
+        color: #fff;
+    }
+    header .navbar ul li:hover .sub-menu{
+        box-shadow: none;
+    }
+    header .navbar ul li .sub-menu, header .navbar ul li:hover .sub-menu{
+        display: none;
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        z-index: 9;
+    }
+    header .navbar ul li .sub-menu li .sub-menu li.menu-item a{
+        background: transparent;
+    }
+    .navbar .navbar-nav li:last-child .sub-menu li:hover>.sub-menu, .navbar .navbar-nav li:nth-last-child(2) .sub-menu li:hover >.sub-menu{
+        left: auto;
+        right: 0;
+        top: 0;
+    }
+}
