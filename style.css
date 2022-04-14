@@ -900,7 +900,7 @@ h6, .h6{
     padding: 9px 30px;
     position: relative;
     display: inline-block;
-    border-radius: 0 !important;
+    border-radius: 25%;
     cursor: pointer;
     z-index: 4;
     transition: all 0.5s ease-out 0s;
@@ -974,7 +974,7 @@ a.text-primary:focus, a.text-primary:hover{
         margin: 32px 0px;
     }
 }
-@media (max-width : 1199px){
+@media (max-width : 2199px){
     #home-slider .slick-bg{
         height: 100%;
     }
