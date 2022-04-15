@@ -6,8 +6,12 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<a><img height="275" src="https://github.com/thelsandroantunes/front-end-02-website-responsivo/blob/main/images/imagem-capa.JPG" alt="imagem-capa"></a>
-<a><img height="275" src="https://github.com/thelsandroantunes/front-end-02-website-responsivo/blob/main/images/imagem-capa2.JPG" alt="imagem-capa-2"></a>
+<a><img height="275" src="https://github.com/thelsandroantunes/front-end-04-wsnetflix-clone/blob/main/images/screen/screen-mob-01.JPG" alt="img-mob-1"></a>
+<a><img height="275" src="https://github.com/thelsandroantunes/front-end-04-wsnetflix-clone/blob/main/images/screen/screen-mob-02.JPG" alt="img-mob-2"></a>
+<a><img height="275" src="https://github.com/thelsandroantunes/front-end-04-wsnetflix-clone/blob/main/images/screen/screen-mob-03.JPG" alt="img-mob-3"></a>
+<a><img height="275" src="https://github.com/thelsandroantunes/front-end-04-wsnetflix-clone/blob/main/images/screen/screen-mob-04.JPG" alt="img-mob-4"></a>
+<a><img height="275" src="https://github.com/thelsandroantunes/front-end-04-wsnetflix-clone/blob/main/images/screen/screen-mob-05.JPG" alt="img-mob-5"></a>
+<a><img height="275" src="https://github.com/thelsandroantunes/front-end-04-wsnetflix-clone/blob/main/images/screen/screen-mob-06.JPG" alt="img-mob-6"></a>
 
 > Se você quiser dar uma olhada em todas as telas em vídeo demo, elas estão [aqui](https://www.youtube.com/watch?v=rQwTygUOBcg).
 
