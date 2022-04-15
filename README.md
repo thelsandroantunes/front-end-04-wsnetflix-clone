@@ -25,7 +25,7 @@ Este projeto faz parte do meu portfólio pessoal, então, ficarei feliz se você
 
 Email-me: thelsandro.developer@gmail.com
 
-Conecte-se comigo em [LinkedIn](https://www.linkedin.com/in/thelsandro-costa-antunes-443840236/).
+Conecte-se comigo em [LinkedIn](https://www.linkedin.com/in/thelsandro-developer/).
 
 Além disso, você pode usar este projeto como quiser, seja para estudar, seja para fazer melhorias ou ganhar dinheiro com isso!
 
